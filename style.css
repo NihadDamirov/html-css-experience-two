@@ -1,0 +1,812 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#page-one{
+    background-color: #292E36;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#call{
+    width: 295px;
+    height: 73px;
+    border: 2px solid #E1B168;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.2px;
+}
+
+
+.reservation{
+    width: 295px;
+    height: 73px;
+    border: 2px solid #E1B168;
+    background: #E1B168;
+    color: #292E36;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; 
+    letter-spacing: 0.44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#navbar div a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+#nav-links{
+    width: 795px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+hr{
+    width: 100%;
+    border: 1px solid #5C6168;
+}
+
+#media-icons{
+    display: flex;
+    align-items: center;
+    width: 179px;
+    justify-content: space-evenly;
+    color: #FFF;
+}
+
+#welcome-to{
+    width: 655px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+
+#welcome-style{
+    color: #FFF;
+    font-family: Cormorant Infant;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110px; /* 110% */
+    letter-spacing: 0.2px;
+}
+
+.view-menu{
+    width: 230px;
+    height: 73px;
+    border: 2px solid #E1B168;
+    background-color: #292E36;
+    color: #E1B168;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;  
+}
+
+.see-all-dishes{
+    width: 230px;
+    height: 73px;
+    border: 2px solid #E1B168;
+    background-color: #292E36;
+    color: #E1B168;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.2px;  
+}
+
+.view-more{
+    background-color: #E1B168;
+    color: #292E36;
+
+}
+
+p{
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;  
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.image-one{
+    display: flex;
+    justify-content: center;
+}
+
+.image-one img{
+    width: 595px;
+    height: 740px;
+    flex-shrink: 0;
+    border-radius: 626px 626px 0px 0px;
+    margin: 30px 30px 0 30px
+}
+
+.vector{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#vectorone{
+    position: relative;
+    left:310px; width: 311px;
+    height: 311px; 
+    right: 45px;
+}
+
+#vectortwo{
+    width: 209px;
+    height: 209px;
+}
+
+.vertical-line{
+    width: 30px;
+    height: 769px;
+    background: rgba(255, 255, 255, 0.10);
+    display: flex;
+}
+
+
+.horizontal-line{
+    width: 655px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.10);
+    margin: 0 auto;
+}
+
+
+.location{
+    width: 83px;
+    height: 83px;
+    border-radius: 41.5px; 
+    background: #292E36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+}
+
+
+.locate-div{
+    display: flex; 
+    align-items: center
+}
+
+.p-color{
+    color:#292E36;
+}
+
+h4{
+    color: #292E36;
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px; /* 130% */
+    letter-spacing: 0.2px;
+}
+
+.josefine{
+    color: #555;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.delicious-text{
+    color: #292E36;
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+}
+
+.page-three{
+    margin-left: 40px;
+    margin-top: 120px;
+    margin-right: 40px;
+}
+
+.hr-menu{
+    width: 60px;
+    height: 1px;
+    border:1px solid#E1B168;
+
+}
+
+h6#menu{
+    color: #292E36;
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px; /* 150% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+
+.menu{
+    display: flex;
+}
+
+.special-dishes{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#try-our-special{
+    color: #292E36;
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 140% */
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+}
+
+.starters{
+    color: #292E36;
+    font-family: Cormorant Infant;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50.4px; /* 140% */
+    letter-spacing: 0.2px;
+}
+
+.name{
+    color: #FFF;
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 140% */
+    letter-spacing: 0.2px;
+}
+
+.region{
+    color: #E1B168;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.2px;
+}
+
+.opinions{
+    color: #FFF;
+font-family: Cormorant Infant;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.5px; /* 150% */
+letter-spacing: 0.25px;;
+}
+
+.line{
+    width: 464px;
+    height: 1px; margin-top: 20px;
+    margin-bottom: 32px;
+    margin-right: 40px;
+    background: #797E89;
+}
+
+.circle-one{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 3px 0px rgba(51, 51, 51, 0.40);
+}
+
+.circle-two{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 0px 3px 0px rgba(51, 51, 51, 0.40);
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+.differ-dishes{
+    color: #555;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+
+.ten-bucks{
+    color: #292E36;
+    font-family: Cormorant Infant;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 66px; /* 110% */
+    letter-spacing: 0.2px;
+}
+
+.only{
+    color: #292E36;
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px; /* 150% */
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+.chicken{
+    color: #292E36;
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 140% */
+    letter-spacing: 0.2px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.burger{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.burger-background-photo{
+    background-image: url(./images/IMAGE\ \(45\).png);
+    width: 665px;
+    height: 409px;
+    display: flex;
+}
+
+.pizza-background-photo{
+    background-image: url(./images/IMAGE\ \(46\).png);
+    width: 665px;
+    height: 409px; 
+    display: flex;
+}
+
+.food-menu-heading{
+    color: #292E36;
+    font-family: Cormorant Infant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 140% */
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+
+.dish-opinion{
+    color: #555;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+}
+
+
+.about-atmosphere{
+    color: #FFF;
+font-family: Josefin Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 0.2px;
+}
+
+
+.vector-one{
+    width: 254px; 
+    height: 234px; 
+    border: 20px solid #323841;
+    display: flex; flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 140px;
+}
+
+.be-first{
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 140% */
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    margin-top: 11px
+}
+
+.reserv{
+    color: #FFF;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px; /* 150% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.input-style{
+    width: 17rem;
+    height: 70px;
+    background: transparent;
+    padding-left: 23px;
+    border: 2px solid #858585;
+}
+
+.input-style-two{
+    width: 198px;
+    height: 70px;
+    background: transparent;
+    padding-left: 23px;
+    border: 2px solid #858585;
+}
+
+::placeholder {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.2px;
+  }
+
+.book-table{
+    color: #000;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    letter-spacing: 0.2px;
+    height: 70px;
+    width: 208px;
+}
+
+.food-list{
+   display: flex;  
+   justify-content: space-between;
+   margin-top: 50px;
+}
+
+.btn-table{
+    width: 242px;
+    height: 68px;
+    background-color: #FFF;
+}
+
+.book-table-div{
+    display: flex;
+    justify-content: center;
+    margin: 30px
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer{
+    background: #292E36;
+    padding: 100px 40px 0 40px;
+
+  }
+
+  .num-email{
+    color: #E1B168;
+    font-family: Josefin Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 157.895% */
+    letter-spacing: 0.2px;
+}
+
+.style{
+    color: #E1B168;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+span{
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.2px;
+}
+
+.our-great{
+    background: #292E36;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.working-hours{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    background: #292E36;
+    padding:26px 0 25px 18px;
+}
+.smooth-background{
+    width: 920px;
+    height: 697px;
+    background: rgba(41, 46, 54, 0.95);
+}
+
+.locate-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; ; 
+}
+
+
+@media only screen and (max-width: 1050px) {
+    #call, .reservation {
+        display: none;
+        }
+    .welcome-style{
+        font-size: 80px;
+
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .special-dishes{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .page-three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px
+    }
+    .view-menu{
+        margin-bottom: 30px;
+    }
+
+    #media-icons{
+        display: none;
+    }
+    #nav-links{
+        width: 100vw;
+    }
+    .image-one{
+        display: none;
+    }
+    .section-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .delicious-story{
+        display: flex;
+        flex-direction: column;
+    }
+    #cafe{
+        width: 100%;
+    }
+    .happily{
+        margin: 0 auto;
+        width: 700px;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .burger{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .food-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .our-great{
+        display: flex;
+        flex-direction: column;
+    }
+    .vector{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .media-icons{
+        display: none;
+    }
+    #tasteat{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .footer-contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .working-hours{
+        align-items: center;
+        text-align: center;    
+        margin-top: 25px;
+    }
+    .end{
+        flex-direction: column;
+        align-items: center;
+    }
+    .smooth-background{
+        width: 100vw;
+        height: 85vh;
+    }
+    .name-email{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .person-timing-date{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+    .locate-div{
+        align-items: start;
+    }
+    .locate-parent{
+        flex-direction: column;
+        gap: 10px;
+        align-items: start;
+    }
+    .delicious-text{
+        text-align: center;
+    }
+    .p-color{
+        text-align: center;
+    }
+    .josefine{
+        text-align: center;
+    }
+    .img-sign{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    }
+
